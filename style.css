@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1d7f8;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 1px 30px;
+    color: rgb(205, 54, 54);
+    
+  }
+  
+  .navbar .logo a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff5555;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    color: rgb(220, 179, 179);
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff5555;
+  }
+  
+  /* Home Section */
+  .home {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #a7d0f8;
+  }
+  
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f3cfcf;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Skills Section */
+  .skills, .projects, .contact {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .skills h2, .projects h2, .contact h2 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul li, .projects p, .contact p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
